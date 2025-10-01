@@ -1,22 +1,24 @@
-print("Tere, maailm!")  
+#Harjutus 1
+#print("Tere, maailm!")  
+#
+#nimi = input("Mis on sinu nimi? ").capitalize
+#vanus = input("Kui vana sa oled? ") 
+#
+#print(f"Tere, maailm! Tervitan sind {nimi}! Sa oled {vanus} aastat vana.")
 
-nimi = input("Mis on sinu nimi? ").capitalize
-vanus = input("Kui vana sa oled? ") 
 
-print(f"Tere, maailm! Tervitan sind {nimi}! Sa oled {vanus} aastat vana.")
+#Harjutus 2
+#vanus = 18
+#eesnimi = "Jaak"
+#pikkus = 16.5
+#kas_kaib_koolis = True
+#
+#print(type(vanus))
+#print(type(eesnimi))
+#print(type(pikkus))
+#print(type(kas_kaib_koolis))
 
-
-
-vanus = 18
-eesnimi = "Jaak"
-pikkus = 16.5
-kas_kaib_koolis = True
-
-print(type(vanus))
-print(type(eesnimi))
-print(type(pikkus))
-print(type(kas_kaib_koolis))
-
+#Harjutus 3
 import random
 
 kommide_arv = random.randint(5, 20)  
