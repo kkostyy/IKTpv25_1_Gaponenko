@@ -19,15 +19,15 @@
 #print(type(kas_kaib_koolis))
 
 #Harjutus 3
-import random
-
-kommide_arv = random.randint(5, 20)  
-print("Laual on", kommide_arv, "kommi.")
-
-soov = int(input("Mitu kommi sa soovid ara votta? "))
-kommide_arv -= soov
-
-print("Nuud on laual", kommide_arv, "kommi.")
+#import random
+#
+#kommide_arv = random.randint(5, 20)  
+#print("Laual on", kommide_arv, "kommi.")
+#
+#soov = int(input("Mitu kommi sa soovid ara votta? "))
+#kommide_arv -= soov
+#
+#print("Nuud on laual", kommide_arv, "kommi.")
 
 
 
