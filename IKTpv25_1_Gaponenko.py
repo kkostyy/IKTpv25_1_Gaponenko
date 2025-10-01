@@ -29,5 +29,27 @@
 #
 #print("Nuud on laual", kommide_arv, "kommi.")
 
+#Harjutus 4
+#import math
+#
+#umbermoodu = float(input("Sisesta puu umbermoot (cm): "))
+#diameeter = umbermoodu / math.pi
+#print("Puu diameeter on:", round(diameeter, 2), "cm")
+
+#Harjutus 5
+#import math
+#
+#N = float(input("Sisesta maatüki pikkus (m): "))
+#M = float(input("Sisesta maatüki laius (m): "))
+#
+#diagonaal = math.sqrt(N**2 + M**2)
+#print("Diagonaali pikkus on:", round(diagonaal, 2), "m")
+
+#Harjutus 6
+#aeg = float(input("Mitu tundi kulus soiduks? "))
+#teepikkus = float(input("Mitu kilomeetrit soitsid? "))
+#kiirus = teepikkus / aeg
+#
+#print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
 
