@@ -21,7 +21,7 @@ di = sqrt(b**2 + c**2)  # Removed math.
 print("Ristküliku diagonaal", round(di, 2)) 
 print()
 
-print("Ringi karakteristikud")  # Removed round(d, 1) - d wasn't defined yet
+print("Ringi karakteristikud") 
 r = float(input("Sisesta ringi raadiusi pikkus => ")) 
 d = 2 * r 
 print("Ringi läbimõõt", d) 
