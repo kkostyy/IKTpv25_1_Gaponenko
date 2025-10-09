@@ -53,5 +53,5 @@
 #print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
 
-Please delete data from Mandaadihaldur!!! 
+
 
