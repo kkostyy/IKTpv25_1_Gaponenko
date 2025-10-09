@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IKTpv25_1_Gaponenko.py</StartupFile>
+    <StartupFile>IKTpv25_1_Gaponenko_Vgade_Otsing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="IKTpv25_1_Gaponenko.py" />
-    <Compile Include="IKTpv25_1_1_Gaponenko_Vgade_Otsing.py" />
+    <Compile Include="IKTpv25_1_1_Gaponenko.py" />
+    <Compile Include="IKTpv25_1_Gaponenko_Vgade_Otsing.py" />
+    <Compile Include="IKYpv25_1_2_Gaponenko.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
