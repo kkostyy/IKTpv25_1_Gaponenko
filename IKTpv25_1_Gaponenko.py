@@ -51,7 +51,3 @@
 #kiirus = teepikkus / aeg
 #
 #print("Sinu kiirus oli " + str(kiirus) + " km/h")
-
-
-
-
