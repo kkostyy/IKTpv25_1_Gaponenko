@@ -162,7 +162,7 @@
 #        print("Ostukorv on tühi.")
 #
 #pood()
-
+#
 # #9 Ruut
 # a_str = input("Sisesta esimese külje pikkus: ")
 # b_str = input("Sisesta teise külje pikkus: ")
