@@ -257,4 +257,3 @@
 #         print("Arvud peavad olema positiivsed!")
 # else:
 #     print("Sisesta täisarvud!")
-#
