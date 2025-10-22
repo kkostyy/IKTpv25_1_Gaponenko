@@ -163,3 +163,97 @@
 #
 #pood()
 
+# #9 Ruut
+# a_str = input("Sisesta esimese külje pikkus: ")
+# b_str = input("Sisesta teise külje pikkus: ")
+# if a_str.isdigit() and b_str.isdigit():
+#     a = float(a_str)
+#     b = float(b_str)
+#     if a > 0 and b > 0:
+#         if a == b:
+#             print("Tegemist on ruuduga.")
+#         else:
+#             print("Tegemist ei ole ruuduga, vaid ristkülikuga.")
+#     else:
+#         print("Küljed peavad olema positiivsed.")
+# else:
+#     print("Sisesta arvud!")
+#
+# #10 Matemaatika
+# arv1_str = input("Sisesta esimene arv: ")
+# arv2_str = input("Sisesta teine arv: ")
+# if arv1_str.replace('.', '', 1).isdigit() and arv2_str.replace('.', '', 1).isdigit():
+#     arv1 = float(arv1_str)
+#     arv2 = float(arv2_str)
+#     tehe = input("Vali tehe (+, -, *, /): ")
+#     if tehe == "+":
+#         print(f"Tulemus: {arv1 + arv2}")
+#     elif tehe == "-":
+#         print(f"Tulemus: {arv1 - arv2}")
+#     elif tehe == "*":
+#         print(f"Tulemus: {arv1 * arv2}")
+#     elif tehe == "/":
+#         if arv2 != 0:
+#             print(f"Tulemus: {arv1 / arv2}")
+#         else:
+#             print("Nulliga ei saa jagada!")
+#     else:
+#         print("Tundmatu tehe.")
+# else:
+#     print("Sisesta arvud korrektselt!")
+#
+# #11 Juubel
+# vanus_str = input("Sisesta oma vanus: ")
+# if vanus_str.isdigit():
+#     vanus = int(vanus_str)
+#     if vanus % 5 == 0:
+#         print("Palju õnne! Sul on juubel! 🎉")
+#     else:
+#         print("Seekord ei ole juubel.")
+# else:
+#     print("Sisesta täisarv vanus!")
+#
+# #12 Müük
+# hind_str = input("Sisesta toote hind (€): ")
+# if hind_str.replace('.', '', 1).isdigit():
+#     hind = float(hind_str)
+#     if hind <= 10:
+#         soodus = hind * 0.9
+#     else:
+#         soodus = hind * 0.8
+#     print(f"Lõplik hind on {soodus:.2f} €")
+# else:
+#     print("Sisesta korrektne hind!")
+#
+# #13 Jalgpalli meeskond
+# sugu = input("Sisesta sugu (mees/naine): ").lower()
+# if sugu == "mees":
+#     vanus_str = input("Sisesta vanus: ")
+#     if vanus_str.isdigit():
+#         vanus = int(vanus_str)
+#         if 16 <= vanus <= 18:
+#             print("Sobid jalgpalli meeskonda!")
+#         else:
+#             print("Vanus ei sobi meeskonda.")
+#     else:
+#         print("Sisesta korrektne vanus!")
+# elif sugu == "naine":
+#     print("Antud meeskonda võetakse ainult mehi.")
+# else:
+#     print("Sisesta 'mees' või 'naine'.")
+#
+# #14 Busside logistika
+# inimesed_str = input("Sisesta inimeste arv: ")
+# kohad_str = input("Sisesta kohtade arv ühes bussis: ")
+# if inimesed_str.isdigit() and kohad_str.isdigit():
+#     inimesed = int(inimesed_str)
+#     kohad = int(kohad_str)
+#     if inimesed > 0 and kohad > 0:
+#         bussid = (inimesed + kohad - 1) // kohad
+#         viimases = inimesed % kohad if inimesed % kohad != 0 else kohad
+#         print(f"Vaja on {bussid} bussi.")
+#         print(f"Viimases bussis on {viimases} inimest.")
+#     else:
+#         print("Arvud peavad olema positiivsed!")
+# else:
+#     print("Sisesta täisarvud!")
