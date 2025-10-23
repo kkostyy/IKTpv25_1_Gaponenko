@@ -13,7 +13,7 @@ if valik == "1":
                 mass = float(input("Palun sisesta oma kehakaal kilogrammides: "))
                 if 0 < mass <= 350:
                     kmi = mass / ((pikkus / 100) ** 2)
-                    print(f"{nimi}! Sinu keha indeks on: {kmi:.1f}")
+                    print(f"{nimi}! Sinu keha indeks on:", kmi)
                     if kmi < 16:
                         hinnang = "Tervisele ohtlik alakaal"
                     elif 16 <= kmi <= 19:
@@ -28,7 +28,7 @@ if valik == "1":
                         hinnang = "Tugev rasvumine"
                     else:
                         hinnang = "Tervisele ohtlik rasvumine"
-                    print(f"Hinnang: {hinnang}")
+                    print("Hinnang:", hinnang)
                     break
                 else:
                     print("Mass peab olema vahemikus 0 kuni 350 kg.")
