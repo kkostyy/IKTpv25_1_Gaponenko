@@ -42,4 +42,4 @@ else:
     print("Vigane valik! Palun käivita programm uuesti ja vali 0 või 1.")
 
 print(f"Kohtumiseni, {nimi}! Igavesti Sinu, Python!")
-
+#
