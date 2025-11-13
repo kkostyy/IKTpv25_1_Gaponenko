@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module1.py</StartupFile>
+    <StartupFile>IKTpv25_1_Gaponenko_6_ variant.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,7 @@
     <Compile Include="IKYpv25_1_2_Gaponenko.py" />
     <Compile Include="IKTpv25_1_2_1_Gaponenko.py" />
     <Compile Include="IKTpv25_2_3_Gaponenko.py" />
-    <Compile Include="IKTpv25_1_Gaponenko_2_ variant.py" />
+    <Compile Include="IKTpv25_1_Gaponenko_6_ variant.py" />
     <Compile Include="module1.py" />
   </ItemGroup>
   <ItemGroup>
