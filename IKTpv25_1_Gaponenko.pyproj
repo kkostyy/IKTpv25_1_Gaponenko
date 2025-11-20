@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module2.py</StartupFile>
+    <StartupFile>kivi_käärid_paber.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,7 @@
     <Compile Include="IKTpv25_1_Gaponenko_6_ variant.py" />
     <Compile Include="module1.py" />
     <Compile Include="module2.py" />
+    <Compile Include="kivi_käärid_paber.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.13" />
