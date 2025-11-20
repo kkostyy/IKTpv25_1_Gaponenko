@@ -2,7 +2,9 @@ l=[]
 print(f"Listi algseis: {l}")
 while True:
     print("Tee valik:")
-    print("1-Lisa elemente\2-Lisa elemente pos-le\3-Emalda elementepos jargi")
+    print("1-Lisa elemente\ 2-Lisa elemente pos-le\ 3-Emalda elementepos jargi")
+    print("4-Eemalda element väärtuse järgi\ 5-Laienda listi\ 6-Sorteeri list")
+    print("7-Tühjenda list\ 8-Lõpeta")
     print("")
 
     while True:
@@ -24,7 +26,7 @@ while True:
                 print("Täisarvud on vaja kasutada")
         for element_id in range(i):
             element_id = input(f"{element_id}. element: ")
-            l.append(element)
+            l.append(element_id)
         print(f"Uuendatud list on {l}")
     elif valik==2:
         while True:
@@ -97,9 +99,12 @@ while True:
                 break
 
             print("Palun sisesta 'jah' või 'ei'.")
-
-
-
+    elif valik == 7:
+        l.clear()
+        print("List in tühjendatud,´.")
+    elif valik ==8:
+        print("Lõpetame programmi")
+    break
     print(f"Uuendatud list on {l}")
 
 
@@ -107,3 +112,4 @@ while True:
 #sort()	Sorteerib listi	loend.sort()
 #reverse()	Pöörab järjekorra ümber	loend.reverse()
 #clear()	Tühjendab listi	loend.clear()
+#loeng.list()
