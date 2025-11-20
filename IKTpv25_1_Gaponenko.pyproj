@@ -30,6 +30,7 @@
     <Compile Include="IKTpv25_2_3_Gaponenko.py" />
     <Compile Include="IKTpv25_1_Gaponenko_6_ variant.py" />
     <Compile Include="module1.py" />
+    <Compile Include="module2.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.13" />
