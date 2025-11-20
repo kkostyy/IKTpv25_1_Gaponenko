@@ -60,5 +60,50 @@ while True:
                 print(f"Eemaldatud element '{element}' {l.index(element)} poeitsioonilt")
                 l.remove(element)
         print(f"Eemaldatud {mitu} elementi")
+    elif valik == 5:
+        while True:
+            data = input("Sisesta elemendid komadega (või jäta tühjaks, et katkestada): ")
+            if data.strip() == "":
+                print("Tegevus katkestatud.")
+                break
+            uus_list = [x.strip() for x in data.split(",")]
+            if len(uus_list) == 0:
+                print("Midagi ei sisestatud. Proovi uuesti.")
+                continue
+
+            l.extend(uus_list)
+            print("Listi laiendatud:", l)
+            break
+
+    elif valik == 6:
+        while True:
+            if len(l) == 0:
+                print("List on tühi — midagi pole sorteerida.")
+                break
+
+            print("Kas soovid listi sorteerida? (jah/ei)")
+            ans = input("> ").lower()
+
+            if ans == "ei":
+                print("Tegevus katkestatud.")
+                break
+
+            if ans == "jah":
+                try:
+                    l.sort()
+                    print("List on sorteeritud:", l)
+                except:
+                    print("Viga: erinevat tüüpi elemendid — sorteerimine pole võimalik.")
+                break
+
+            print("Palun sisesta 'jah' või 'ei'.")
+
+
 
     print(f"Uuendatud list on {l}")
+
+
+#extend(L)	Lisab kõik teise listi elemendid lõppu	loend.extend([6,7])
+#sort()	Sorteerib listi	loend.sort()
+#reverse()	Pöörab järjekorra ümber	loend.reverse()
+#clear()	Tühjendab listi	loend.clear()
