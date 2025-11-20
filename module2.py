@@ -13,3 +13,13 @@ while True:
         while True:
             try:
                 i=int(input("Mitu elementi soovid lisada? "))
+                if i>0:
+                    break
+                else:
+                    print("Arvud on vaja >0")
+            except:
+                print("Täisarvud on vaja kasutada")
+        for element_id in range(i):
+            element_id = input(f"{element_id}. element: ")
+            l.append(element)
+        print(f"Uuendatud list on {l}")
