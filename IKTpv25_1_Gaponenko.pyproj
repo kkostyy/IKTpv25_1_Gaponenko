@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IKTpv25_1_Gaponenko_6_ variant.py</StartupFile>
+    <StartupFile>module2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
