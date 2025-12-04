@@ -32,3 +32,51 @@ def arithmetic(a:float,b:float,tehe:str)->any:
     else:
         vastus = "Tundumatu tehe"
     return vastus
+
+#2
+
+def is_year_leap(aasta:int)->bool:
+    """Kontrollib, kas aasta on liigaasta
+    :param int aasta: aasta arvuna
+    :return/rtype: True kui liigaasta, False kui tavaline aasta
+    """
+    if (aasta % 4 == 0 and aasta % 100 != 0):
+        return True
+    else:
+        return False
+
+def int_kontroll(sisend:str)->int:
+    """Kontrillib, kas sisestatud andmed on teisendatavad int arvuks
+    :param str sisend: kasutaja sissestatud andmed
+    :return/rtype: teisendatud int arv
+    """
+    while True:
+        try:
+            arv=int(sisend)
+            return arv
+        except ValueError:
+            sisend=input("Palun sisesta arv: ")
+
+#3 
+def square(külg:float)->any:
+    ümbermõõt=4*külg
+    diagonaal=külg**0,5*2
+    pindala=külg**2
+    return ümbermõõt, pindala, diagonaal
+
+#4
+def season(kuu:int)->str:
+    if kuu in [12, 1, 2]:
+        return "talv"
+    elif kuu in [3, 4, 5]:
+        return "kevad"
+    elif kuu in [6, 7, 8]:
+        return "suvi"
+    elif kuu in [9, 10, 11]:
+        return "sügis"
+    else:
+        return "vigane kuu"
+
+#5
+def bank(a:float,years:int)->float:
+    
