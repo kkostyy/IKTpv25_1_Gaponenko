@@ -1,6 +1,8 @@
 from Modulefail import *
 
-
+arv=int_kontroll(input)
+aasta= int_kontroll(input)
+a
 
 kuu=int_kontroll(input("Sisesta kuu number (1-12): "))
 print(f"Kuul {kuu} on aastaja {season(kuu)}")

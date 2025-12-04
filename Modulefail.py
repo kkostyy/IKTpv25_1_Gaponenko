@@ -78,5 +78,13 @@ def season(kuu:int)->str:
         return "vigane kuu"
 
 #5
-def bank(a:float,years:int)->float:
-    
+def bank(a:float,aasta:int)->float:
+    """Kasutaja teeb hoiuse summas a eurot years aastaks 10% aastaintressiga 
+    (igal aastal suureneb hoiusumma 10%, ka intressile arvestatakse järgmise aasta intress).
+    Kirjuta funktsioon bank, mis võtab argumendid a ja years,
+    ning tagastab lõppsumma kasutaja kontol.
+    """
+    intress=0.1
+    for i in range(aasta):
+        a+=a*intress
+    return a
