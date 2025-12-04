@@ -1,7 +1,4 @@
-﻿# praktika.py
-# Код для всех задач 1️⃣–1️⃣6️⃣
-# Комментарии на русском, подсказки и выводы на эстонском.
-import random
+﻿import random
 import string
 
 VOWELS = "aeiouõäöüAEIOUÕÄÖÜ"
@@ -39,7 +36,6 @@ def names_menu():
         print(nm)
     if names:
         print("\nViimane lisatud nimi:", names[-1])
-    # redigeerimise võimalus
     if names:
         edit = input("Kas soovid nimekirjas nimesid muuta? (jah/ei): ").strip().lower()
         if edit == 'jah' or edit == 'y':
@@ -145,7 +141,7 @@ def name_check(name):
         'unique_sorted': unique_sorted
     }
 
-# 🔟 Töötajate andmed — maks palk, keskmine, mitu üle keskmise, keskmine vanus gruppides
+# 10 Töötajate andmed — maks palk, keskmine, mitu üle keskmise, keskmine vanus gruppides
 def employees_stats(employees):
     if not employees:
         return {}
@@ -346,7 +342,6 @@ def main_menu():
                 print("Tähti:", info['letters'], "Täishäälikuid:", info['vowels'], "Kaashäälikuid:", info['consonants'])
                 print("Unikaalsed tähed tähestikulises järjekorras:", info['unique_sorted'])
         elif choice == '10':
-            # lihtne demo: küsime 3 töötajat
             employees = []
             for i in range(3):
                 name = input(f"Töötaja {i+1} nimi: ").strip()
@@ -364,7 +359,7 @@ def main_menu():
         elif choice == '11':
             letters, repeated = english_alphabets()
             print("Tähed:", letters)
-            print("Korduvad:", repeated[:10])  # näita esimest 10
+            print("Korduvad:", repeated[:10])  
         elif choice == '12':
             lst, mn, mx = swap_min_max_random()
             print("Pärast vahetust:", lst)
