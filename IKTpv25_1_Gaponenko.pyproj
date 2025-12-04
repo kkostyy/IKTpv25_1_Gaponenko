@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Kodutöö__04_12.py</StartupFile>
+    <StartupFile>Tavalinefail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,6 +33,8 @@
     <Compile Include="module2.py" />
     <Compile Include="kivi_käärid_paber.py" />
     <Compile Include="Kodutöö__04_12.py" />
+    <Compile Include="Modulefail.py" />
+    <Compile Include="Tavalinefail.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.13" />
