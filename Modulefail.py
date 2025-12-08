@@ -88,3 +88,60 @@ def bank(a:float,aasta:int)->float:
     for i in range(aasta):
         a+=a*intress
     return a
+#6
+def is_prime(arv:int)->any:
+    '''Kirjuta funktsioon is_prime,
+    mis võtab ühe argumendi — arvu vahemikus 0 kuni 1000,
+    ja tagastab True, kui see on algarv, ja False muul juhul.
+    Kui arv on kordarv, kuva selle jagajad.
+    '''
+    if arv < 2 or arv > 1000:
+        return "Arv peab olema vahemikus 0 kuni 1000"
+
+    for i in range(2, int(arv**0.5) + 1):
+        if arv % i == 0:
+            print(f"{arv} ei ole algarv. Jagajad:")
+            for j in range(2, arv):
+                if arv % j == 0:
+                    print(j, end=" ")
+            print()
+            return False
+    return True
+
+
+#7
+def date(p:int, k:int, a:int)->bool:
+    if k < 1 or k > 12 or p < 1:
+        return False
+
+    # päevade arv kuudes
+    päevad = [31, 29 if is_year_leap(a) else 28, 31, 30, 31, 30,
+              31, 31, 30, 31, 30, 31]
+
+    return p <= päevad[k - 1]
+
+#8
+def XOR_cipher(sõne:str, võti:int)->str:
+    return "".join(chr(ord(täht) ^ võti) for täht in sõne)
+
+def XOR_uncipher(sõne:str, võti:int)->str:
+    return "".join(chr(ord(täht) ^ võti) for täht in sõne)
+
+#9
+def average(numbers:list)->float|None:
+    if not numbers:
+        return None
+    return sum(numbers) / len(numbers)
+
+#10
+def min_max(numbers:list)->tuple:
+    return min(numbers), max(numbers)
+
+#11
+def unique_elements(lst:list)->list:
+    uus = []
+    for el in lst:
+        if el not in uus:
+            uus.append(el)
+    return uus
+
