@@ -113,8 +113,6 @@ def is_prime(arv:int)->any:
 def date(p:int, k:int, a:int)->bool:
     if k < 1 or k > 12 or p < 1:
         return False
-
-    # päevade arv kuudes
     päevad = [31, 29 if is_year_leap(a) else 28, 31, 30, 31, 30,
               31, 31, 30, 31, 30, 31]
 
@@ -123,7 +121,6 @@ def date(p:int, k:int, a:int)->bool:
 #8
 def XOR_cipher(sõne:str, võti:int)->str:
     return "".join(chr(ord(täht) ^ võti) for täht in sõne)
-
 def XOR_uncipher(sõne:str, võti:int)->str:
     return "".join(chr(ord(täht) ^ võti) for täht in sõne)
 

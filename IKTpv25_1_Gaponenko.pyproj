@@ -34,6 +34,8 @@
     <Compile Include="kivi_käärid_paber.py" />
     <Compile Include="Kodutöö__04_12.py" />
     <Compile Include="Modulefail.py" />
+    <Compile Include="NewFolder1\Modulefaill.py" />
+    <Compile Include="NewFolder1\Tavalinefaill.py" />
     <Compile Include="Tavalinefail.py" />
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="file" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
