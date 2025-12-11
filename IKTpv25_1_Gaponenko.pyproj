@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b87c1193-4244-4130-8d1c-cf53b895b456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tavalinefail.py</StartupFile>
+    <StartupFile>Kasutajate R ja A Süsteemis\Tavalinefaill.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,7 +34,7 @@
     <Compile Include="kivi_käärid_paber.py" />
     <Compile Include="Kodutöö__04_12.py" />
     <Compile Include="Modulefail.py" />
-    <Compile Include="Kasutajate R ja A Süsteemis\Modulefaill.py" />
+    <Compile Include="Kasutajate R ja A Süsteemis\MyModule.py" />
     <Compile Include="Kasutajate R ja A Süsteemis\Tavalinefaill.py" />
     <Compile Include="Tavalinefail.py" />
   </ItemGroup>
@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="file" />
+    <Content Include="Kasutajate R ja A Süsteemis\k.txt" />
+    <Content Include="Kasutajate R ja A Süsteemis\s.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Kasutajate R ja A Süsteemis\" />
